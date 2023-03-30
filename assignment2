@@ -1,0 +1,11 @@
+public class sumfunction {
+    public static void main(String[] args) {
+        System.out.println(Addition(10,20));
+
+    }
+
+    public static int Addition(int a ,int b ){
+        int random = a+b;
+        return random;
+    }
+}
