@@ -1,0 +1,23 @@
+package com.ayush;
+
+import java.util.Scanner;
+
+public class sumofn {
+    public static void main(String[] args) {
+        System.out.println(sum());
+
+    }
+    static int  sum( ) {
+        Scanner input = new Scanner(System.in);
+       int n = input.nextInt();
+       int random = 0;
+        while (n > 0) {
+            int i = 0;
+            int rem = n % 10;
+             random = random  + rem;
+            n = n / 10;
+            i++;
+        }
+        return random;
+    }
+}
